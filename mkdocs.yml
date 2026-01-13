@@ -8,11 +8,7 @@ nav:
   - Usage: usage.md
 
 theme:
-  name: readthedocs
-  highlightjs: true
-  hljs_languages:
-    - go
-    - bash
+  name: shadcn
 
 markdown_extensions:
   - admonition
