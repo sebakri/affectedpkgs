@@ -1,0 +1,28 @@
+version: '3'
+
+tasks:
+  build:
+    desc: Build the affectedpkgs binary
+    cmds:
+      - go build -o affectedpkgs main.go
+
+  test:
+    desc: Run all tests
+    cmds:
+      - go test -v ./...
+
+  docs:serve:
+    desc: Serve documentation locally
+    cmds:
+      - mkdocs serve
+
+  docs:build:
+    desc: Build documentation
+    cmds:
+      - mkdocs build
+
+  clean:
+    desc: Clean build artifacts
+    cmds:
+      - rm -f affectedpkgs
+      - rm -rf site

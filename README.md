@@ -10,6 +10,31 @@
 - **CI/CD Integration**: `--json` output for easy parsing and integration with automation pipelines.
 - **Efficient**: Uses `go list` with JSON parsing to handle large repositories efficiently.
 
+## Development
+
+This project uses [Task](https://taskfile.dev/) for development automation.
+
+### Build and Test
+
+```bash
+task build
+task test
+```
+
+### Documentation
+
+To preview the documentation locally:
+
+```bash
+task docs:serve
+```
+
+To build the static documentation site:
+
+```bash
+task docs:build
+```
+
 ## Installation
 
 ### From Source
