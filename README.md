@@ -23,6 +23,8 @@ task test
 
 ### Documentation
 
+This project uses [uv](https://github.com/astral-sh/uv) to manage Python dependencies for documentation.
+
 To preview the documentation locally:
 
 ```bash
