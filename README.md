@@ -39,6 +39,12 @@ task docs:build
 
 ## Installation
 
+### Shell Script (Recommended)
+
+```bash
+curl -sSL https://raw.githubusercontent.com/sebakri/affectedpkgs/main/install.sh | bash
+```
+
 ### From Source
 
 ```bash

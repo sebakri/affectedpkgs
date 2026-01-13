@@ -6,7 +6,17 @@
 
 *   **Go**: You need Go installed on your machine (version 1.18 or later is recommended). Verify with `go version`.
 
-## Method 1: Using `go install` (Recommended)
+## Method 1: Using Shell Script (Fastest)
+
+You can install the latest binary with a single command:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/sebakri/affectedpkgs/main/install.sh | bash
+```
+
+This script automatically detects your OS and architecture, downloads the latest release, and installs it to `/usr/local/bin`.
+
+## Method 2: Using `go install`
 
 To install the latest version directly:
 

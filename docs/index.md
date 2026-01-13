@@ -18,6 +18,25 @@ In large Go monorepos or multi-module projects, updating a core library (like a 
 *   **Root Detection**: Can filter output to show only the "root" packages causing the dependency, reducing noise.
 *   **Automation Ready**: JSON output mode makes it perfect for piping into other tools or CI scripts.
 
+## Quick Start
+
+### 1. Install
+```bash
+go install github.com/sebakri/affectedpkgs@latest
+```
+
+### 2. Run
+Analyze which packages in your project depend on `logrus`:
+```bash
+affectedpkgs github.com/sirupsen/logrus
+```
+
+### 3. Filter Roots
+Only see the top-level packages that introduce the dependency:
+```bash
+affectedpkgs --roots github.com/sirupsen/logrus
+```
+
 ## Getting Started
 
 Check out the [Installation](installation.md) guide to get set up, or jump straight to [Usage](usage.md) to see examples.

@@ -1,6 +1,6 @@
 site_name: affectedpkgs
 site_description: A CLI tool to find packages affected by a specific dependency in Go modules.
-site_url: https://example.com/affectedpkgs/
+site_url: https://sebakri.github.io/affectedpkgs/
 
 nav:
   - Home: index.md
@@ -8,10 +8,13 @@ nav:
   - Usage: usage.md
 
 theme:
-  name: shadcn
+  name: simple-blog
+
+extra_css:
+  - css/extra.css
 
 markdown_extensions:
   - admonition
   - codehilite
   - toc:
-      permalink: true
+      permalink: "#"
