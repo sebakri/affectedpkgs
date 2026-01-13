@@ -1,0 +1,9 @@
+# Binaries
+affectedpkgs
+
+# Logs
+*.log
+firebase-debug.log
+
+# Test artifacts
+testdata/go.sum

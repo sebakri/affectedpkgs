@@ -1,0 +1,21 @@
+site_name: affectedpkgs
+site_description: A CLI tool to find packages affected by a specific dependency in Go modules.
+site_url: https://example.com/affectedpkgs/
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - go
+    - bash
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
