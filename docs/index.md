@@ -22,7 +22,7 @@ In large Go monorepos or multi-module projects, updating a core library (like a 
 
 ### 1. Install
 ```bash
-go install github.com/sebakri/affectedpkgs@latest
+curl -sSL https://raw.githubusercontent.com/sebakri/affectedpkgs/main/install.sh | bash
 ```
 
 ### 2. Run
