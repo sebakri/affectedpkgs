@@ -14,12 +14,12 @@ tasks:
   docs:serve:
     desc: Serve documentation locally
     cmds:
-      - mkdocs serve
+      - uv run mkdocs serve
 
   docs:build:
     desc: Build documentation
     cmds:
-      - mkdocs build
+      - uv run mkdocs build
 
   clean:
     desc: Clean build artifacts
