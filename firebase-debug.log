@@ -1,0 +1,12 @@
+[debug] [2026-01-14T11:05:54.328Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-14T11:05:54.329Z] > authorizing via signed-in user (sebastian.krieger85@gmail.com)
+[debug] [2026-01-14T11:05:54.335Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-14T11:05:54.335Z] > authorizing via signed-in user (sebastian.krieger85@gmail.com)
+[debug] [2026-01-14T11:05:54.338Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-14T11:05:54.338Z] > authorizing via signed-in user (sebastian.krieger85@gmail.com)
+[debug] [2026-01-14T11:05:54.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-14T11:05:54.339Z] > authorizing via signed-in user (sebastian.krieger85@gmail.com)
+[debug] [2026-01-14T11:05:54.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-14T11:05:54.341Z] > authorizing via signed-in user (sebastian.krieger85@gmail.com)
+[debug] [2026-01-14T11:05:54.342Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-01-14T11:05:54.342Z] > authorizing via signed-in user (sebastian.krieger85@gmail.com)

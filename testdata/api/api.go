@@ -1,0 +1,2 @@
+package api
+func Foo() {}
